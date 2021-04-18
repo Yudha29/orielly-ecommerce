@@ -1,0 +1,62 @@
+[
+  {
+    "id": "e7a2e102-fd24-44c7-8e31-94d7dde29995",
+    "name": "Tas",
+    "picture": "backpack.jpg"
+  },
+  {
+    "id": "249eb148-ea6f-4969-b5cf-27eade3ee91d",
+    "name": "Tas Wanita",
+    "picture": "women-bag.jpg"
+  },
+  {
+    "id": "0918dd95-d1b4-43b1-b31c-a60f935e6ae8",
+    "name": "Gelang Tangan",
+    "picture": "bracelet.jpg"
+  },
+  {
+    "id": "0535f3cb-9cd0-47d5-a604-088183ca972f",
+    "name": "Jam Tangan",
+    "picture": "watch.jpg"
+  },
+  {
+    "id": "d1589559-7349-4c52-8ed9-3902ab403c3c",
+    "name": "Kacamata",
+    "picture": "eyeglasses.jpg"
+  },
+  {
+    "id": "5f022abe-bc42-4bab-b33d-f74a69b72987",
+    "name": "Sepatu Wanita",
+    "picture": "high-heels.jpg"
+  },
+  {
+    "id": "f36feb94-ffc3-4adb-b1ff-28ff1d9a2b1f",
+    "name": "Jaket Hoddie",
+    "picture": "hoddie.jpg"
+  },
+  {
+    "id": "e2e288d0-9c42-470e-a92b-b68e7eabbd8e",
+    "name": "Jeans",
+    "picture": "jeans.jpg"
+  },
+  {
+    "id": "d3ca92c6-cd6a-49dd-9af2-2acc175b96de",
+    "name": "Sepatu",
+    "picture": "sneaker.jpg"
+  },
+  {
+    "id": "d6e23cb8-0497-4021-8964-9ae607429e4e",
+    "name": "Jas",
+    "picture": "suit.jpg"
+  },
+  {
+    "id": "e0ce365e-06ce-4f27-aff5-cc3c9bc77989",
+    "name": "Kemeja",
+    "picture": "shirt.jpg"
+  },
+  {
+    "id": "ff72bdbc-c935-4029-b39c-0d1312aa377d",
+    "name": "Kaos",
+    "picture": "sweetshirt.jpg"
+  }
+]

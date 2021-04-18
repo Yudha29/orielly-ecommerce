@@ -1,0 +1,344 @@
+[
+  {
+    "id": "2fd4ee0c-85a1-4ba2-afaa-f7865133ff36",
+    "discount": 0.1,
+    "name": "ELAN UNITY BRACELET",
+    "description": "The Elan Unity Bracelet symbolizes a singular link between two. A timeless reminder that rests on your wrist, a testimony to those who become one. Pair with the Elan Unity necklace for a perfect match. Designed to be worn as an everyday piece that makes a delicate statement.",
+    "merk": "Danniel Wellington",
+    "price": 1050000,
+    "numOfSold": 1076
+  },
+  {
+    "id": "e72fa81e-1733-41ee-b68f-0e0869b88b2f",
+    "discount": 0.025,
+    "name": "Asymmetric Wedge Sandals",
+    "description": "Simpel namun bergaya, sandal wedge asimetris ini dibuat untuk menjadi sepatu andalan Anda di hari kerja hingga akhir pekan. Menampilkan tumit kokoh yang rendah, sepatu hitam ini pasti akan membawa pakaian Anda ke ketinggian baru dalam sekejap mata. Berjalan satu mil dan lebih banyak lagi di permata nyaman yang tetap terpasang dengan aman dengan tali pergelangan kaki yang nyaman. Padukan dengan kemeja bergambar dan rok kulit untuk tampilan yang edgy dan seksi.",
+    "merk": "Charless and Keith",
+    "price": 749000,
+    "numOfSold": 1076
+  },
+  {
+    "id": "93c7a40f-5558-4a22-b736-0226e601e427",
+    "discount": 0.05,
+    "name": "ICONIC LINK CERAMIC",
+    "description": "The Iconic Link Ceramic adalah jam tangan pertama kami yang seluruhnya terbuat dari keramik. Menampilkan aksen perak di tangan dan penanda pelat jam agar serasi dengan permukaan mengkilap dari sambungan keramik. Tambahan unik pada koleksi Iconic Link ini menonjol sebagai pernyataan baru. Jam tangan hitam kecil yang dibutuhkan semua orang dalam koleksi mereka. Harap diperhatikan bahwa benturan keras dapat menyebabkan keramik pecah atau retak, meskipun hal ini jarang terjadi.",
+    "merk": "Danniel Wellington",
+    "price": 4250000,
+    "numOfSold": 12076
+  },
+  {
+    "id": "4526d716-f419-4017-9f1b-f6ef91f7ad7d",
+    "discount": 0.1,
+    "name": "Chain Detail Trapeze Bag",
+    "description": "Tas dengan pegangan atas sangat populer di musim ini - sekarang saatnya memperkenalkan satu tas ke koleksi Anda dalam bentuk keindahan gading dan cognac dua warna ini. Dibuat dengan bentuk trapeze menonjol yang menarik perhatian, tas ini menawarkan banyak ruang penyimpanan untuk menyimpan barang-barang Anda sehari-hari. Dengan tali yang dapat dilepas yang memungkinkan Anda melakukan hands-free dengan membawanya seperti crossbody, padukan dengan pakaian bermain linen dan bagal bertekstur untuk tampilan yang siap musim semi.",
+    "merk": "Charless and Keith",
+    "price": 1299000,
+    "numOfSold": 6026
+  },
+  {
+    "id": "31f30654-7630-4317-a6c9-c6d00991af14",
+    "discount": 0,
+    "name": "Metallic Buckle Shoulder Bag",
+    "description": "Bawalah pegas saat Anda melangkah keluar rumah dengan tas bahu kuning tersampir di lengan Anda. Dihiasi dengan gesper metalik untuk tampilan yang edgy namun chic, permata ini hadir dengan tali yang dapat disesuaikan sehingga Anda dapat memakainya sesuai panjang yang Anda inginkan. Penutup magnet dapat membuka dan menutup dengan mudah, sehingga Anda dapat mengakses barang Anda tanpa repot. Kami rasa akan terlihat bagus jika dipasangkan dengan blus oversized yang dimasukkan ke dalam rok A-line.",
+    "merk": "Charless and Keith",
+    "price": 849000,
+    "numOfSold": 24026
+  },
+  {
+    "id": "3c1af2e4-e006-49a1-9235-bc23030ba46d",
+    "discount": 0,
+    "name": "Nylon Panelled Tote Bag",
+    "description": "Revitalisasi lemari pakaian kerja Anda dengan menambahkan tote bag yang elegan ini ke dalam koleksi Anda. Menawarkan banyak ruang bagi Anda untuk menyimpan barang-barang yang harus Anda miliki di bagian dalamnya, kecantikan nilon ini hadir dalam lapisan berpanel abu-abu yang memberi dimensi pada penampilan Anda. Bawalah sendiri atau dengan tali pengikat yang memungkinkan Anda memakainya sesuai panjang yang Anda inginkan. Cocokkan dengan gaun flowy dan pasangan yang disesuaikan untuk tampilan chic perusahaan yang dipoles.",
+    "merk": "Charless and Keith",
+    "price": 1049000,
+    "numOfSold": 8156
+  },
+  {
+    "id": "2068a45b-8058-4a4b-9968-6eb06628753d",
+    "discount": 0,
+    "name": "Organic Cotton Platform Sneakers",
+    "description": "Didesain dengan warna hijau mint untuk memberikan penampilan Anda semburat warna cerah, sepatu kets ini menampilkan tumit platform yang tebal namun nyaman yang akan memberi Anda tambahan tinggi. Terbuat dari katun organik, TPR daur ulang, dan TPR konvensional, sepatu kets ini adalah bukti bahwa tampil menarik tidak harus mengorbankan lingkungan. Padukan dengan jeans berkaki lebar dan tank top untuk kesan kasual dan santai.",
+    "merk": "Charless and Keith",
+    "price": 799000,
+    "numOfSold": 17910
+  },
+  {
+    "id": "f84635ed-ad1c-4c93-a6fd-a12c2a6c0464",
+    "discount": 0.4,
+    "name": "Patent Square Handle Tote Bag",
+    "description": "Dibuat untuk para pakar gaya edgy, tote bag ini menawarkan kemewahan yang tiada habisnya baik siang maupun malam. Lengkap dengan sentuhan akhir hitam paten yang menambah kilau pada penampilan biasa Anda, juga dilengkapi dengan pegangan persegi untuk sedikit modernitas. Dengan kompartemen dalam berukuran sedang yang menampung semua barang yang harus Anda miliki, barang-barang Anda tetap aman namun mudah dijangkau dengan penutup magnet yang menyertai. Dandani dengan jumpsuit berikat dan ankle boots untuk hasil akhir yang berani.",
+    "merk": "Charless and Keith",
+    "price": 599000,
+    "numOfSold": 302228
+  },
+  {
+    "id": "83928086-731e-4f7c-9c84-bf0615f8cb01",
+    "discount": 0.5,
+    "name": "PETITE MELROSE",
+    "description": "Petite Melrose mengunggulkan arloji putih telur dan strap mesh rose gold yang tak tertandingi keanggunannya. Jam ini memperindah busana harian, suasana hati, dan semangat Anda.",
+    "merk": "Danniel Wellington",
+    "price": 2450000,
+    "numOfSold": 128076
+  },
+  {
+    "id": "554e8e72-5dd2-402a-83e3-1bc8ba916701",
+    "discount": 0,
+    "name": "Adidas Ultraboost 21 Men's Running Shoes",
+    "description": "Adidas Ultraboost 21 Men's Running Shoes Prototipe demi prototipe, Inovasi demi inovasi, Pengujian demi pengujian, Bersama-sama dengan kami dalam mewujudkan harmonisasi terbaik untuk berat, bantalan, dan responsitivitas. Ultraboost 21. Sambut pengembalian energi terbaik.",
+    "price": 3200000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "7443dedf-79b3-4710-b5f1-dd1bee97a404",
+    "discount": 0.13,
+    "name": "Adidas 4ATHLTS Backpack - Black",
+    "description": "Adidas 4ATHLTS Backpack - Black Orang-orang tahu Anda seorang atlet dengan cara Anda membawa diri sendiri. Mereka juga tahu kapan Anda membawa ransel adidas khas ini. Dengan aksen pita anyaman dan ikon 3-Strip, itu hanya satu cara lagi Anda menunjukkan bahwa Anda serius tentang olahraga.",
+    "price": 630000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "a01eb9c9-af15-4a17-923d-ee3dd77dd490",
+    "discount": 0.36,
+    "name": "Adidas Run For The Oceans Graphic Men's Running T-Shirts",
+    "description": "Adidas Run For The Oceans Graphic Men's Running T-Shirts Di trotoar jalanan, jalur trail, atau trek, aktivitas lari menautkanmu dengan planet bumi. Bergabunglah dengan komitmen adidas untuk membantu melindungi planet ini. Langkah kecil untuk membantu mengakhiri pencemaran limbah plastik, tee lari ini dibuat dengan material hasil daur ulang. Produk ini membantumu tetap kering dengan AEROREADY yang menyerap kelembapan. Produk ini dibuat dengan Primeblue, material hasil daur ulang beperforma tinggi yang dibuat dengan Parley Ocean Plastic.",
+    "price": 330000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "b3bccacf-3238-4443-a72d-5651569abe84",
+    "discount": 0.48,
+    "name": "Adidas Ultraboost 20 Men's Running Shoes - Black White",
+    "description": "Adidas Ultraboost 20 Men's Running Shoes - Black White Hari baru. Aktivitas baru. Jadikan yang terbaik. Sepatu berkinerja tinggi ini memiliki fitur rajutan kaki. Penguatan dijahit ditempatkan tepat untuk memberi Anda dukungan di tempat yang paling Anda butuhkan. Tumit elastane yang lembut memberikan kenyamanan yang lebih nyaman. Bantalan responsif mengembalikan energi ke langkah Anda dengan setiap langkah kaki.",
+    "price": 3300000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "3bb71322-751d-483f-ac53-950365bfb092",
+    "discount": 0.17,
+    "name": "Giordano Original 2229-90",
+    "description": "Giordano is a popular apparel retailer in the Asia Pacific Region. It has over 1,500 outlets covering 31 markets. The brands characteristics of simplicity, vibrant colors and casual styling are evident in all Giordano Eyewear. The Eyewear Collection boosts a high quality/price ratio that aims to make people feel good and look great.",
+    "price": 735000,
+    "merk": "Giordano Glasses",
+    "numOfSold": 0
+  },
+  {
+    "id": "4acabbd8-22fd-4508-808f-b322d783a7be",
+    "discount": 0.43,
+    "name": "Giordano Kacamata Unisex BLUE F GD GA01845 50 55",
+    "description": "Giordano is a popular apparel retailer in the Asia Pacific Region. It has over 1,500 outlets covering 31 markets. The brands characteristics of simplicity, vibrant colors and casual styling are evident in all Giordano Eyewear. The Eyewear Collection boosts a high quality/price ratio that aims to make people feel good and look great.",
+    "price": 840000,
+    "merk": "Giordano Glasses",
+    "numOfSold": 0
+  },
+  {
+    "id": "e06466ef-b80b-4486-afe9-f771a54d18bc",
+    "discount": 0.26,
+    "name": "Giordano Kacamata Unisex GOLD F GD GA02009 02 51",
+    "description": "Giordano is a popular apparel retailer in the Asia Pacific Region. It has over 1,500 outlets covering 31 markets. The brands characteristics of simplicity, vibrant colors and casual styling are evident in all Giordano Eyewear. The Eyewear Collection boosts a high quality/price ratio that aims to make people feel good and look great.",
+    "price": 850000,
+    "merk": "Giordano Glasses",
+    "numOfSold": 0
+  },
+  {
+    "id": "9be47b51-e407-4950-b49e-a43088dd7acb",
+    "discount": 0.18,
+    "name": "Nike Breathe Men's Short Sleeve Tee",
+    "description": "Nike Breathe Men's Short Sleeve Tee Nike Zoom Gravity dirancang khusus untuk. Desain berkelas, nyaman untuk digunakan.",
+    "price": 290000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "b2a91323-1e90-4372-9a12-cf0ecc48b219",
+    "discount": 0.47,
+    "name": "Nike Fly By.Mid Men's Basketball Shoes",
+    "description": "Nike Fly By.Mid Men's Basketball Shoes Pukul ketiga pointer ketika memakai sepatu Fly by mid basket dari Nike. Udara berbentuk renda dilengkapi alas kaki empuk dan busa midsole yang membantu Anda melepas semua gang.",
+    "price": 799000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "24235035-274a-4440-81ee-61cb8ede9231",
+    "discount": 0.32,
+    "name": "Nike Gym Club Women's Training Duffel Bag",
+    "description": "Nike Gym Club Women's Training Duffel Bag Tas Duffel Nike Gym Club memiliki desain yang ringan sehingga mudah dibawa dan menyimpan semua barang Anda di satu tempat yang luas. Kain tahan lama — plus 2 kantong ekstra membuat Anda siap berlatih ke mana pun Anda berolahraga.",
+    "price": 439000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "ee59f73a-064c-4380-9ddf-cabe18b50d8e",
+    "discount": 0.37,
+    "name": "Nike Renew Run Men's Running Shoes",
+    "description": "Nike Renew Run Men's Running Shoes Nike Renew Run membuat Anda terus bergerak dengan busa yang lebih lembut untuk rasa yang empuk. Dirancang dengan pertimbangan pelari sehari-hari, sepatu ini memberikan dukungan yang aman dan traksi yang tahan lama untuk kenyamanan saat bepergian.",
+    "price": 1199000,
+    "merk": "Adidas",
+    "numOfSold": 0
+  },
+  {
+    "id": "da20c30f-6b91-41e6-a9f1-cfe4bf53c5e7",
+    "discount": 0.31,
+    "name": "Reebok HIIT Women's Training Shoes",
+    "description": "Reebok HIIT Women's Training Shoes Pertahankan kecepatan selama jump squat dan burpe. Sepatu pria ini dirancang untuk mendukung variasi gerakan latihan interval intensitas tinggi. Bagian atas jala memiliki bantal di sekitar kerah agar pas terkunci. Sol luar yang fleksibel memberikan pegangan yang dapat diandalkan di lantai gym yang licin.",
+    "price": 1599000,
+    "merk": "Reebok",
+    "numOfSold": 0
+  },
+  {
+    "id": "f80fc742-4b81-4364-94e6-a4ca082c0fa3",
+    "discount": 0.26,
+    "name": "Reebok Men's LCT Polo",
+    "description": "Reebok Men's LCT Polo Kerah bergaris, berujung menanamkan bagian ini dengan gaya warisan instan. Terbaik untuk: Athleisure, pakaian santai",
+    "price": 259000,
+    "merk": "Reebok",
+    "numOfSold": 0
+  },
+  {
+    "id": "e878c0ab-9a27-44fd-a546-e4e7476fa5a3",
+    "discount": 0.49,
+    "name": "Reebok Unisex City Bag",
+    "description": "Reebok Unisex City Bag Atur hal-hal penting Anda saat bepergian dengan ransel ini. Tali bahu yang dapat disesuaikan menawarkan kemudahan dibawa.",
+    "price": 129000,
+    "merk": "Reebok",
+    "numOfSold": 0
+  },
+  {
+    "id": "23559e37-5b8b-424b-89a9-7326ecc93c4c",
+    "discount": 0.13,
+    "name": "Reebok Zig Kinetica Women's Running Shoes",
+    "description": "REEBOK ZIG KINETICA Women's Running Shoes Perkuat energi Anda. Sepatu ini merupakan inovasi dalam gaya dan kenyamanan. Zigzag midsole menampilkan warna-warna berani untuk tampilan segar dan modern. Garis lengkung di bagian atas menambah desain progresif mereka. Bantalan inovasi mendorong Anda maju dengan responsif kenyal.",
+    "price": 1439100,
+    "merk": "Reebok",
+    "numOfSold": 0
+  },
+  {
+    "id": "3a08c03f-1664-4155-90df-c0c308ed6da5",
+    "discount": 0.41,
+    "name": "Swarovski Sparkling Dance Bangle, White, Rhodium plated",
+    "description": "Joining our popular Sparkling Dance collection, this exquisite bangle lifts any look with its timeless rhodium plated sparkle. The design elegantly combines a stunning round centerpiece with clear crystal pavé. A perfect gift for anyone who appreciates classic elegance with a twist.",
+    "price": 1379000,
+    "merk": "Swarovski",
+    "numOfSold": 0
+  },
+  {
+    "id": "5de8bbba-87ab-4294-97ed-644f4d6c6ed8",
+    "discount": 0.15,
+    "name": "Swarovski Fresh Bangle, White, Rose-gold tone plated",
+    "description": "A delicate, feminine design with a galactic twist. This bangle features a swirl of clear crystal pavé and sparkling chaton in the prong setting. A discreet hinge closure blends elegantly into the rose gold-plated design. Very easy to combine with other Swarovski jewelry pieces or a watch.",
+    "price": 1559000,
+    "merk": "Swarovski",
+    "numOfSold": 0
+  },
+  {
+    "id": "d10b7379-1a5b-4de9-b0e3-cc433f3ee6a8",
+    "discount": 0.21,
+    "name": "Facet Swan Bangle, Multi-colored, Mixed metal finish",
+    "description": "Take the black-and-white trend to the next level with this fashion-forward open bangle featuring Swarovski’s Iconic Swan, the symbol of the brand. Inspired by crystal facets, the contemporary design showcases a 3D cage with refined lines of sparkling clear and black crystal pavé, and is very easy to mix and match with other jewelry pieces.",
+    "price": 2309000,
+    "merk": "Swarovski",
+    "numOfSold": 6500
+  },
+  {
+    "id": "dc2ae3d2-dd9c-4b21-be06-54934fcc8a80",
+    "discount": 0.32,
+    "name": "New Balance Fuelcell Propel Women's Running Shoes",
+    "description": "Logo NB bertumpuk di bagian dada menambah sentuhan gaya yang terinspirasi dari koleksi klasik, dan saku kanggurunya membantumu menyimpan benda penting tetap praktis.",
+    "price": 499000,
+    "merk": "New Balance",
+    "numOfSold": 1400
+  },
+  {
+    "id": "a228cb06-f2b7-4d65-95d2-dc8d132d88f3",
+    "discount": 0.13,
+    "name": "New Balance Essential Stacked Logo Men's Jogger Pants - Pigment",
+    "description": "New Balance Essential Stacked Logo Men's Jogger Pants - Pigment Anda akan menyukai kenyamanan sederhana dari celana jogger Essentials Stacked Logo untuk pria, ideal untuk hari-hari penting dan sore yang santai. Fit atletik adalah rajutan dengan kain terry lembut untuk membantu Anda tetap nyaman baik saat berada di pusat kota atau bersantai.",
+    "price": 359000,
+    "merk": "New Balance",
+    "numOfSold": 0
+  },
+  {
+    "id": "acc6fca2-1fea-48cb-96a4-1d6267e2d5a9",
+    "discount": 0.12,
+    "name": "New Balance DRFT Men's Running Shoes - Grey",
+    "description": "New Balance DRFT Men's Running Shoes - Grey Bekerja, nongkrong, atau keluar untuk misi, DRFT pria adalah sneaker serbaguna paling serbaguna yang dibuat dengan jaring rekayasa yang dapat bernapas dan aplikasi bahan tanpa jahitan untuk menjaga kenyamanan tetap ringan.",
+    "price": 699000,
+    "merk": "New Balance",
+    "numOfSold": 900
+  },
+  {
+    "id": "dd7a02e9-55c1-4468-b42e-009caf31f307",
+    "discount": 0.3,
+    "name": "Kacamata Korea Pria Wanita OPPA OP38 SV Full Silver",
+    "description": "<ul><li>Tipe : OPPA OP38 SV<li>,<li>Gender : Unisex, (Cowok / Cewek)</li><li>Warna : Full, Silver</li><li>Bahan : Besi,</li><li>Lensa : Normal, / Plano</li><li>Bonus : Kotak, Kacamata dan Kain Lap Kacamata</li><li>Diameter Lingkaran : 4.9 cm</li><li>Tinggi Frame : 4.6 cm</li><li>Lebar Frame : 13 cm</li><li>Jarak Hidung : 2 cm</li></ul>",
+    "price": 125000,
+    "merk": "Oppa Glasses",
+    "numOfSold": 0
+  },
+  {
+    "id": "b52922ea-899f-486d-a30b-65621557afeb",
+    "discount": 0.22,
+    "name": "Kacamata Korea Pria Wanita OPPA OP29 FBL Hitam Bulat",
+    "description": "<ul><li>Tipe : OPPA OP29 FBL<li>,<li>Gender : Unisex (Cowok / Cewek)</li><li>Warna : Full Hitam Doff</li><li>Bahan : Besi dan Plastic</li><li>Lensa : Normal / Plano</li><li>Bonus : Kotak Kacamata dan Kain Lap Kacamata</li><li>Diameter Lingkaran : 5,2 cm</li><li>Tinggi Frame : 4.6 cm</li><li>Lebar Frame : 13,5 cm</li><li>Jarak Hidung : 1,8 cm</li></ul>",
+    "price": 115000,
+    "merk": "Oppa Glasses",
+    "numOfSold": 300
+  },
+  {
+    "id": "36be79f5-cc34-4c8b-bcb2-89ff48808c5a",
+    "discount": 0.3,
+    "name": "Kacamata Korea Pria Wanita OPPA OP39 FBL Hitam Bulat",
+    "description": "<ul><li>Tipe : OPPA OP39 FBL</li><li>Gender : Unisex (Cowok / Cewek)</li><li>Warna : Hitam</li><li>Bahan : Besi</li><li>Lensa : Normal / Plano</li><li>Bonus : Kotak Kacamata dan Kain Lap Kacamata</li><li>Diameter Lingkaran : 5 cm</li><li>Tinggi Frame : 4.7 cm</li><li>Lebar Frame : 13 cm</li><li>Jarak Hidung : 2 cm</li></ul>",
+    "price": 135000,
+    "merk": "Oppa Glasses",
+    "numOfSold": 0
+  },
+  {
+    "id": "45624b08-6d28-4c7b-8e33-d105b23bfb5d",
+    "discount": 0.32,
+    "name": "The Executive 4 Way Stretch Suit 1-SUICRO120C122 Dark Blue",
+    "description": "The Executive 4 Way Stretch Suit 1-SUICRO120C122 Dark Blue Notched Lapel, 4Ways Stretch Suit, Front Button, Long Sleeve, Slim Fit, <br/>Warna: Dark Blue, Material: Polyester, Spandex<br/><br/>Model Wearing Size M for Top, size 32 for Pants<br/>Model Height 187 cm, Bust 98 cm, Waist 80 cm, Hips 93 cm<br/>Size chart : Lingkar Dada x Lingkar Pinggang x Panjang Lengan x Panjang Baju x Lebar Bahu<br/><br/>48: 101.5 x 93.5 x 64 x 72.5 x 43.5 cm<br/>50: 104 x 94 x 65 x 74 x 46 cm<br/>52: 106.5 x 94.5 x 66 x 75.5 x 48.5 cm<br/>54: 109 x 95 x 67 x 77 x 51 cm",
+    "price": 584955,
+    "merk": "The Executive",
+    "numOfSold": 0
+  },
+  {
+    "id": "a3da4f77-11a8-4092-92f7-e8d8214e63c0",
+    "discount": 0.39,
+    "name": "The Executive Slim Suit 1-SUICRO219H127 DARK BLUE",
+    "description": "The Executive Slim Suit 1-SUICRO219H127 DARK BLUE Notched Lapel, Front Button, Long Sleeve, Front Pocket, <br/>Warna: Dark Blue, <br/>Material: Polyester, Slim Fit, <br/>Model Wearing Size M for Top, size 32 for Pants, Model Height 181 cm, Chest 92 cm, Waist 73 cm, <br/>Lingkar Dada x Lingkar Pinggang x Panjang Lengan x Panjang Baju x Lebar Bahu<br/>S: 101.5 x 93.5 x 64 x 72.5 x 43.5 cm<br/>M: 104 x 94 x 65 x 74 x 46 cm<br/>L: 106.5 x 94.5 x 66 x 75.5 x 48.5 cm<br/>XL: 109 x 95 x 67 x 77 x 51 cm",
+    "price": 1299000,
+    "merk": "The Executive",
+    "numOfSold": 3000
+  },
+  {
+    "id": "d06e6215-7cae-4204-9b71-c4452f68bba9",
+    "discount": 0.47,
+    "name": "The Executive Cool Max Blazer Pria - Dark Blue [1-BZICRT120C129]",
+    "description": "The Executive Cool Max Blazer Pria - Dark Blue [1-BZICRT120C129] Long sleeve blazer berbahan polyester yang didesain trendy dengan notched lapel, cool max blazer, front button opening dan slim fit sehingga nyaman saat dipakai.<br/><br/>Size Chart :<br/><br/>Lingkar Dada x Lingkar Pinggang x Panjang Lengan x Panjang Baju x Lebar Bahu<br/><br/>Size S : 101.5 x 93.5 x 64 x 72.5 x 43.5 cm<br/>Size M : 104 x 94 x 65 x 74 x 46 cm<br/>Size L : 106.5 x 94.5 x 66 x 75.5 x 48.5 cm<br/>Size XL : 109 x 95 x 67 x 77 x 51 cm",
+    "price": 1399000,
+    "merk": "The Executive",
+    "numOfSold": 0
+  },
+  {
+    "id": "b3c3e940-af9e-4a00-a064-9c6b0ef5e994",
+    "discount": 0.46,
+    "name": "The Executive Basic Skinny Celana Kasual Pria - Brown [1-LPNBSC519O047]",
+    "description": "The Executive Basic Skinny Celana Kasual Pria - Brown [1-LPNBSC519O047] merupakan long pants berbahan cotton yang didesain trendy & casual dengan front zipp with clip, side & back pockets dan detail belt loop sehingga nyaman saat digunakan.",
+    "price": 429000,
+    "merk": "The Executive",
+    "numOfSold": 15000
+  },
+  {
+    "id": "7f1c5049-50f2-46ed-86de-9d918159b4d3",
+    "discount": 0.16,
+    "name": "The Executive Basic Skinny Pants Celana Pria - Black [1-LPNBSC519O047]",
+    "description": "The Executive Basic Skinny Pants Celana Pria - Black [1-LPNBSC519O047], Long pants berbahan cotton yang didesain dengan slim fit dengan front zipper & button closure, detail belt loops, dan back & side pcokets.",
+    "price": 509000,
+    "merk": "The Executive",
+    "numOfSold": 0
+  }
+]
