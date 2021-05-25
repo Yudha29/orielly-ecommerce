@@ -26,7 +26,7 @@ class Controller extends BaseController
         })->slice(0, 12);
         $recommendedProducts = $products->slice(0, 12);
 
-        return view('home', compact(
+        return view('client.home', compact(
             'categories',
             'recommendedCategories',
             'hasSpecialOfferProducts',
@@ -38,7 +38,7 @@ class Controller extends BaseController
     public function contactUs() {
         $recommendedCategories = Category::all()->slice(0, 5);
 
-        return view('contact-us', compact(
+        return view('client.contact-us', compact(
             'recommendedCategories'
         ));
     }
