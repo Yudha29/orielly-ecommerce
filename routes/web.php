@@ -20,3 +20,5 @@ Route::get('/contact', 'App\Http\Controllers\Controller@contactUs');
 Route::get('/signup', 'App\Http\Controllers\AuthController@signUp');
 
 Route::get('/signin', 'App\Http\Controllers\AuthController@signIn');
+
+Route::get('/reset', 'App\Http\Controllers\AuthController@reset');

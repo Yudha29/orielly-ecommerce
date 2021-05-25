@@ -13,4 +13,8 @@ class AuthController extends Controller
     public function signIn() {
         return view('client.sign-in');
     }
+
+    public function reset() {
+        return view('client.reset-password');
+    }
 }
