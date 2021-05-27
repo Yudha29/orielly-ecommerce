@@ -21,7 +21,7 @@
                                 style="background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url('assets/categories/{{$c->picture}}');"
                             >
                             </div>
-                            <p class="text-gray-600 font-bold pt-2 pb-3 text-sm text-center">{{$c->name}}</p>
+                            <p class="text-gray-600 font-bold pt-2 pb-3 text-sm text-center">{{$c->id}}</p>
                         </a>
                     </div>
                 @endforeach
@@ -41,6 +41,7 @@
                         @foreach($hasSpecialOfferProducts as $p)
                             <div class="md:w-2/6 p-1">
                                 <x-product-card
+                                    id="{{$p->id}}"
                                     name="{{$p->name}}"
                                     merk="{{$p->merk}}"
                                     numOfSold="{{$p->num_of_sold}}"
@@ -66,6 +67,7 @@
                     @foreach($mostPopularProducts as $p)
                         <div class="md:w-2/12 p-1">
                             <x-product-card
+                                id="{{$p->id}}"
                                 name="{{$p->name}}"
                                 merk="{{$p->merk}}"
                                 numOfSold="{{$p->num_of_sold}}"
@@ -90,6 +92,7 @@
                     @foreach($recommendedProducts as $p)
                         <div class="md:w-2/12 p-1">
                             <x-product-card
+                                id="{{$p->id}}"
                                 name="{{$p->name}}"
                                 merk="{{$p->merk}}"
                                 numOfSold="{{$p->num_of_sold}}"

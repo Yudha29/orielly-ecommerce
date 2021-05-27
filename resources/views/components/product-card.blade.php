@@ -1,5 +1,5 @@
 <div>
-    <a href="/{{$name}}">
+    <a href="/{{$id}}">
         <div
             class="bg-white rounded-md overflow-hidden shadow-md w-full hover:shadow-lg transition cursor-pointer"
             style="min-height: 22rem;"

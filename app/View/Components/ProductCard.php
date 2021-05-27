@@ -6,6 +6,7 @@ use Illuminate\View\Component;
 
 class ProductCard extends Component
 {
+    public $id;
     public $name;
     public $merk;
     public $numOfSold;
@@ -17,8 +18,9 @@ class ProductCard extends Component
      *
      * @return void
      */
-    public function __construct(string $name, string $merk, int $numOfSold, float $discount, float $price, $thumbnail)
+    public function __construct(string $id, string $name, string $merk, int $numOfSold, float $discount, float $price, $thumbnail)
     {
+        $this->id = $id;
         $this->name = $name;
         $this->merk = $merk;
         $this->numOfSold = $numOfSold;
