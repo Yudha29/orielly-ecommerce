@@ -17,14 +17,14 @@ class Controller extends BaseController
         $categories = Category::all();
         $recommendedCategories = $categories->slice(0, 5);
 
-        $products = Product::all()->shuffle();
+        $products = Product::all();
         $hasSpecialOfferProducts = $products->filter(function ($p) {
             return isset($p->discount) && $p->discount > 0;
-        })->slice(0, 6);
+        })->shuffle()->slice(0, 6);
         $mostPopularProducts = $products->filter(function ($p) {
            return $p->num_of_sold > 1000;
-        })->slice(0, 12);
-        $recommendedProducts = $products->slice(0, 12);
+        })->shuffle()->slice(0, 12);
+        $recommendedProducts = $products->shuffle()->slice(0, 12);
 
         return view('client.home', compact(
             'categories',
