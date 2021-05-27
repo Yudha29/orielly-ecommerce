@@ -75,6 +75,56 @@
             </div>
         </div>
     </section>
+    <section class="mt-8 mb-12">
+        <x-container>
+            <x-product-deck
+                title="Diskon nih"
+                url="/search/label=discount"
+            >
+                <div class="flex flex-wrap">
+                    @foreach($hasSpecialOfferProducts as $p)
+                        <div class="md:w-2/12 p-1">
+                            <x-product-card
+                                id="{{$p->id}}"
+                                name="{{$p->name}}"
+                                merk="{{$p->merk}}"
+                                numOfSold="{{$p->num_of_sold}}"
+                                discount="{{$p->discount}}"
+                                price="{{$p->price}}"
+                                thumbnail="{{$p->photos[0]->name}}"
+                            >
+                            </x-product-card>
+                        </div>
+                    @endforeach
+                </div>
+            </x-product-deck>
+        </x-container>
+    </section>
+    <section class="mt-8 mb-12">
+        <x-container>
+            <x-product-deck
+                title="Paling Populer"
+                url="/search?label=inDemand"
+            >
+                <div class="flex flex-wrap">
+                    @foreach($recommendedProducts as $p)
+                        <div class="md:w-2/12 p-1">
+                            <x-product-card
+                                id="{{$p->id}}"
+                                name="{{$p->name}}"
+                                merk="{{$p->merk}}"
+                                numOfSold="{{$p->num_of_sold}}"
+                                discount="{{$p->discount}}"
+                                price="{{$p->price}}"
+                                thumbnail="{{$p->photos[0]->name}}"
+                            >
+                            </x-product-card>
+                        </div>
+                    @endforeach
+                </div>
+            </x-product-deck>
+        </x-container>
+    </section>
 
     <x-slot name="script">
         <script>
