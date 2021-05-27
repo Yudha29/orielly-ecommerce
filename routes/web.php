@@ -22,3 +22,5 @@ Route::get('/signup', 'App\Http\Controllers\AuthController@signUp');
 Route::get('/signin', 'App\Http\Controllers\AuthController@signIn');
 
 Route::get('/reset', 'App\Http\Controllers\AuthController@reset');
+
+Route::get('/{id}', 'App\Http\Controllers\ProductController@clientView');
