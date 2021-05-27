@@ -50,4 +50,12 @@ class Controller extends BaseController
             'recommendedCategories'
         ));
     }
+
+    public function privacyPolicies() {
+        $recommendedCategories = Category::all()->slice(0, 5);
+
+        return view('client.privacy-policies', compact(
+            'recommendedCategories'
+        ));
+    }
 }

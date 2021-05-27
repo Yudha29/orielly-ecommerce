@@ -27,4 +27,8 @@ Route::get('/reset', 'App\Http\Controllers\AuthController@reset');
 
 Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');
 
+Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');
+
+Route::get('/policies', 'App\Http\Controllers\Controller@privacyPolicies');
+
 Route::get('/{id}', 'App\Http\Controllers\ProductController@clientView');
