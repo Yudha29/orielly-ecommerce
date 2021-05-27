@@ -42,4 +42,12 @@ class Controller extends BaseController
             'recommendedCategories'
         ));
     }
+
+    public function aboutUs() {
+        $recommendedCategories = Category::all()->slice(0, 5);
+
+        return view('client.about-us', compact(
+            'recommendedCategories'
+        ));
+    }
 }
