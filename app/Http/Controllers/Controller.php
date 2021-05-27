@@ -58,4 +58,12 @@ class Controller extends BaseController
             'recommendedCategories'
         ));
     }
+
+    public function termsOfUse() {
+        $recommendedCategories = Category::all()->slice(0, 5);
+
+        return view('client.terms-of-use', compact(
+            'recommendedCategories'
+        ));
+    }
 }

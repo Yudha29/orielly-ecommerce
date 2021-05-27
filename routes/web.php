@@ -31,4 +31,6 @@ Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');
 
 Route::get('/policies', 'App\Http\Controllers\Controller@privacyPolicies');
 
+Route::get('/terms', 'App\Http\Controllers\Controller@termsOfUse');
+
 Route::get('/{id}', 'App\Http\Controllers\ProductController@clientView');
