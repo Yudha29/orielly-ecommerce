@@ -15,13 +15,13 @@
             <p class="quick-sand text-2xl orielly-text-primary mb-6 font-bold">Cari kategori apa?</p>
             <div class="flex flex-wrap">
                 @foreach($categories as $c)
-                    <div class="w-2/12 p-1"><a href="/search?category={{$c->name}}">
+                    <div class="w-2/12 p-1"><a href="/search?category={{$c->id}}">
                             <div
                                 class="h-52 w-full rounded-md"
                                 style="background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url('assets/categories/{{$c->picture}}');"
                             >
                             </div>
-                            <p class="text-gray-600 font-bold pt-2 pb-3 text-sm text-center">{{$c->id}}</p>
+                            <p class="text-gray-600 font-bold pt-2 pb-3 text-sm text-center">{{$c->name}}</p>
                         </a>
                     </div>
                 @endforeach
