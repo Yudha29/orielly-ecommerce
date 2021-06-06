@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
 Route::get('/', 'App\Http\Controllers\Controller@index');
 
 Route::get('/contact', 'App\Http\Controllers\Controller@contactUs');
@@ -34,7 +38,3 @@ Route::get('/policies', 'App\Http\Controllers\Controller@privacyPolicies');
 Route::get('/terms', 'App\Http\Controllers\Controller@termsOfUse');
 
 Route::get('/{id}', 'App\Http\Controllers\ProductController@clientView');
-
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
