@@ -49,6 +49,14 @@
     background-repeat: no-repeat;
 }
 
+.table {
+    @apply border-collapse border border-gray-500
+}
+
+.th, .td {
+    @apply border border-gray-500
+}
+
 body {
     @apply h-full text-gray-800 open-sans bg-gray-50;
 }

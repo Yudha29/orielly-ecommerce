@@ -6893,6 +6893,19 @@ select{
   background-repeat: no-repeat;
 }
 
+.table {
+  border-collapse: collapse;
+  --tw-border-opacity: 1;
+  border-color: rgba(107, 114, 128, var(--tw-border-opacity));
+  border-width: 1px
+}
+
+.th, .td {
+  --tw-border-opacity: 1;
+  border-color: rgba(107, 114, 128, var(--tw-border-opacity));
+  border-width: 1px
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   --tw-bg-opacity: 1;

@@ -34,4 +34,8 @@ class ProductHelper {
     public static function priceAfterDiscount(int $price, float $discount) {
         return round($price - $price * $discount);
     }
+
+    public static function formatDiscount(float $discount) {
+        return ($discount * 100).'%';
+    }
 }
