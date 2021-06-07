@@ -20,6 +20,12 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
     Route::get('/backend/products', 'App\Http\Controllers\ProductController@adminIndex')
         ->name('admin.products');
+
+    Route::get('/backend/product/create', 'App\Http\Controllers\ProductController@create')
+        ->name('admin.product.create');
+
+    Route::post('/backend/product', 'App\Http\Controllers\ProductController@store')
+        ->name('admin.product.store');
 });
 
 Route::get('/', 'App\Http\Controllers\Controller@index');

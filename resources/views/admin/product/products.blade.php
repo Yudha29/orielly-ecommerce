@@ -11,10 +11,12 @@
                 <div class="p-6">
                     <div class="flex items-center">
                         <h2 class="text-2xl font-bold mt-4">All Produk</h2>
-                        <button class="flex items-center ml-auto bg-blue-200 rounded-md text-blue-900 font-bold px-3 py-2">
-                            <i class="fa fa-plus mr-2"></i>
-                            Add Product
-                        </button>
+                        <a class="ml-auto" href="{{ route('admin.product.create') }}">
+                            <button class="flex items-center bg-blue-200 rounded-md text-blue-900 font-bold px-3 py-2">
+                                <i class="fa fa-plus mr-2"></i>
+                                Add Product
+                            </button>
+                        </a>
                     </div>
                     <table class="w-full text-left my-8">
                         <thead>

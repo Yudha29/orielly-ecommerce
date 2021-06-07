@@ -2,12 +2,14 @@
 
 namespace App\Models;
 
+use App\Traits\Uuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Product extends Model
 {
+    use Uuids;
     use HasFactory;
     use SoftDeletes;
 
@@ -21,7 +23,7 @@ class Product extends Model
         'description',
         'merk',
         'price',
-        'numOfSold'
+        'num_of_sold'
     ];
 
     public function photos(): \Illuminate\Database\Eloquent\Relations\HasMany {
