@@ -20,7 +20,8 @@
                         </span>
                     </p>
                 </div>
-                <form action="#">
+                <form action="{{ route('login') }}" method="POST">
+                    @csrf
                     <x-form.input
                         type="email"
                         name="email"

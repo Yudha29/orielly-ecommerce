@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+Route::middleware(['auth:sanctum', 'verified', 'isAdmin'])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
@@ -40,24 +40,28 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
         ->name('admin.product.destroy');
 });
 
-Route::get('/', 'App\Http\Controllers\Controller@index');
+Route::middleware(['isUser'])->group(function () {
+    Route::get('/', 'App\Http\Controllers\Controller@index');
 
-Route::get('/contact', 'App\Http\Controllers\Controller@contactUs');
+    Route::get('/contact', 'App\Http\Controllers\Controller@contactUs');
 
-Route::get('/about', 'App\Http\Controllers\Controller@aboutUs');
+    Route::get('/about', 'App\Http\Controllers\Controller@aboutUs');
 
-Route::get('/signup', 'App\Http\Controllers\AuthController@signUp');
+    Route::middleware(['noAuth'])->group(function () {
+        Route::get('/signup', 'App\Http\Controllers\AuthController@viewSignUp');
 
-Route::get('/signin', 'App\Http\Controllers\AuthController@signIn');
+        Route::get('/signin', 'App\Http\Controllers\AuthController@viewSignIn');
+    });
 
-Route::get('/reset', 'App\Http\Controllers\AuthController@reset');
+    Route::get('/reset', 'App\Http\Controllers\AuthController@reset');
 
-Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');
+    Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');
 
-Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');
+    Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');
 
-Route::get('/policies', 'App\Http\Controllers\Controller@privacyPolicies');
+    Route::get('/policies', 'App\Http\Controllers\Controller@privacyPolicies');
 
-Route::get('/terms', 'App\Http\Controllers\Controller@termsOfUse');
+    Route::get('/terms', 'App\Http\Controllers\Controller@termsOfUse');
 
-Route::get('/{id}', 'App\Http\Controllers\ProductController@clientView');
+    Route::get('/{id}', 'App\Http\Controllers\ProductController@clientView');
+});

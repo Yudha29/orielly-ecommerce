@@ -17,12 +17,13 @@
                         </span>
                     </p>
                 </div>
-                <form action="#">
+                <form action="{{ route('register') }}" method="POST">
+                    @csrf
                     <x-form.input
                         type="email"
                         name="email"
                         label="Email"
-                        value=""
+                        value="{{old('email')}}"
                         error=""
                         placeholder="Masukan email"
                     ></x-form.input>
@@ -30,7 +31,7 @@
                         type="name"
                         name="name"
                         label="Nama"
-                        value=""
+                        value="{{old('name')}}"
                         error=""
                         placeholder="Masukan nama"
                     ></x-form.input>
@@ -38,9 +39,17 @@
                         type="password"
                         name="password"
                         label="Password"
-                        value=""
+                        value="{{old('password')}}"
                         error=""
                         placeholder="Masukan password"
+                    ></x-form.input>
+                    <x-form.input
+                        type="password"
+                        name="password_confirmation"
+                        label="Konfirmasi Password"
+                        value="{{old('password_confirmation')}}"
+                        error=""
+                        placeholder="Konfirmasi password"
                     ></x-form.input>
                     <x-button type="submit">Sign up</x-button>
                 </form>
