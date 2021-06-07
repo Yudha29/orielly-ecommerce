@@ -26,6 +26,9 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 
     Route::post('/backend/product', 'App\Http\Controllers\ProductController@store')
         ->name('admin.product.store');
+
+    Route::delete('/backend/product/{id}', 'App\Http\Controllers\ProductController@destroy')
+        ->name('admin.product.destroy');
 });
 
 Route::get('/', 'App\Http\Controllers\Controller@index');

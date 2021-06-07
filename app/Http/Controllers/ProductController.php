@@ -99,4 +99,12 @@ class ProductController extends Controller
 
         return redirect('/backend/products');
     }
+
+    public function destroy(Request $request, $id) {
+        $product = Product::find($id);
+
+        $product->delete();
+
+        return redirect('/backend/products');
+    }
 }

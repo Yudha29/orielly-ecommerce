@@ -51,10 +51,14 @@
                                             <i class="fa fa-pencil-alt mr-2"></i>
                                             Edit
                                         </button>
-                                        <button class="flex items-center ml-2 bg-red-200 rounded-md text-red-900 font-bold px-2 py-1">
-                                            <i class="fa fa-trash-alt mr-2"></i>
-                                            Delete
-                                        </button>
+                                        <form action="{{route('admin.product.destroy', $p->id)}}" method="POST">
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <input type="hidden" name="_method" value="DELETE">
+                                            <button type="submit" class="flex items-center ml-2 bg-red-200 rounded-md text-red-900 font-bold px-2 py-1">
+                                                <i class="fa fa-trash-alt mr-2"></i>
+                                                Delete
+                                            </button>
+                                        </form>
                                     </div>
                                 </td>
                             </tr>
