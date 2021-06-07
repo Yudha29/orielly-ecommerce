@@ -43,10 +43,12 @@
                                 <td class="py-3 px-2">{{$p->merk}}</td>
                                 <td class="py-3 px-2">
                                     <div class="flex">
-                                        <button class="flex items-center bg-gray-200 rounded-md text-gray-900 font-bold px-2 py-1">
-                                            <i class="fa fa-eye mr-2"></i>
-                                            View
-                                        </button>
+                                        <a href="{{ route('admin.product', $p->id) }}">
+                                            <button class="flex items-center bg-gray-200 rounded-md text-gray-900 font-bold px-2 py-1">
+                                                <i class="fa fa-eye mr-2"></i>
+                                                View
+                                            </button>
+                                        </a>
                                         <a href="{{ route('admin.product.edit', $p->id) }}">
                                             <button class="flex items-center ml-2 bg-yellow-200 rounded-md text-yellow-900 font-bold px-2 py-1">
                                                 <i class="fa fa-pencil-alt mr-2"></i>

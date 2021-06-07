@@ -24,10 +24,13 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/backend/product/create', 'App\Http\Controllers\ProductController@create')
         ->name('admin.product.create');
 
+    Route::get('/backend/product/{id}', 'App\Http\Controllers\ProductController@adminView')
+        ->name('admin.product');
+
     Route::post('/backend/product', 'App\Http\Controllers\ProductController@store')
         ->name('admin.product.store');
 
-    Route::get('/backend/product/{id}', 'App\Http\Controllers\ProductController@edit')
+    Route::get('/backend/product/{id}/edit', 'App\Http\Controllers\ProductController@edit')
         ->name('admin.product.edit');
 
     Route::patch('/backend/product/{id}', 'App\Http\Controllers\ProductController@update')

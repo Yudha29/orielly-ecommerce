@@ -29,6 +29,20 @@ class ProductController extends Controller
      * @param $id
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
+    public function adminView(Request $request, $id) {
+        // Get single product detail.
+        $product = Product::find($id);
+
+        return view('admin.product.product-detail', compact('product'));
+    }
+
+    /**
+     * View client's product detail page.
+     *
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function clientView(Request $request, $id) {
         // Get all recommended categories.
         $recommendedCategories = Category::all()->slice(0, 5);
