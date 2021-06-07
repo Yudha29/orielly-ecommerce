@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Product;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
@@ -55,7 +56,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Controller method to view product add form.
+     * View product add form.
      *
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
@@ -100,11 +101,71 @@ class ProductController extends Controller
         return redirect('/backend/products');
     }
 
-    public function destroy(Request $request, $id) {
+    /**
+     * View product edit page.
+     *
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
+    public function edit(Request $request, $id) {
+        // Find single product.
+        $product = Product::find($id);
+        $categories = Category::all();
+
+        return view('admin.product.product-edit', compact('product', 'categories'));
+    }
+
+    /**
+     * Store new product.
+     *
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function update(Request $request, $id) {
+        // Find single product.
         $product = Product::find($id);
 
+        $product->name = $request->name;
+        $product->merk = $request->merk;
+        $product->price = $request->price;
+        $product->discount = $request->discount;
+        $product->description = $request->description;
+
+        $product->save();
+
+        if (isset($request->thumbnail)) {
+            // Create image filename
+            $filename = time().'.'.$request->thumbnail->extension();
+
+            // Upload image
+            $request->thumbnail->move(public_path('assets/products'), $filename);
+
+            $photo = ['name' => $filename];
+            // Save the product's related categories and photo
+            $product->photos()->update($photo);
+        }
+        $product->categories()->detach();
+        $product->categories()->attach([$request->category], ["id" => Str::uuid()->toString()]);
+
+        return redirect('/backend/products');
+    }
+
+    /**
+     * Delete a product.
+     *
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function destroy(Request $request, $id) {
+        // Find single product.
+        $product = Product::find($id);
+
+        // Delete the product.
         $product->delete();
 
+        // Redirect to all product page.
         return redirect('/backend/products');
     }
 }

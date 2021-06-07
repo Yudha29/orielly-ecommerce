@@ -47,10 +47,12 @@
                                             <i class="fa fa-eye mr-2"></i>
                                             View
                                         </button>
-                                        <button class="flex items-center ml-2 bg-yellow-200 rounded-md text-yellow-900 font-bold px-2 py-1">
-                                            <i class="fa fa-pencil-alt mr-2"></i>
-                                            Edit
-                                        </button>
+                                        <a href="{{ route('admin.product.edit', $p->id) }}">
+                                            <button class="flex items-center ml-2 bg-yellow-200 rounded-md text-yellow-900 font-bold px-2 py-1">
+                                                <i class="fa fa-pencil-alt mr-2"></i>
+                                                Edit
+                                            </button>
+                                        </a>
                                         <form action="{{route('admin.product.destroy', $p->id)}}" method="POST">
                                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                             <input type="hidden" name="_method" value="DELETE">
