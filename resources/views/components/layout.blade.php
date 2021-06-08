@@ -50,7 +50,7 @@
 
                                         <x-jet-dropdown-link
                                             href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();this.closest('form').submit();"
+                                            onclick="event.preventDefault();var c=confirm('Anda yakin ingin logout'); c ? this.closest('form').submit() : null;"
                                         >
                                             {{ __('Log Out') }}
                                         </x-jet-dropdown-link>
