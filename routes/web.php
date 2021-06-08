@@ -55,6 +55,9 @@ Route::middleware(['isUser'])->group(function () {
             ->name('sign-in');
     });
 
+    Route::get('/bag', 'App\Http\Controllers\BagController@index')
+        ->name('bag');
+
     Route::get('/reset', 'App\Http\Controllers\AuthController@reset');
 
     Route::get('/forgot', 'App\Http\Controllers\AuthController@forgotPassword');

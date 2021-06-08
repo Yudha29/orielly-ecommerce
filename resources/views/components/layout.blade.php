@@ -76,15 +76,15 @@
                                     <i class="fa fa-search"></i>
                                 </button>
                             </div>
-                            <div class="flex">
-                                @foreach($navbarCategories as $rc)
-                                    <div class="mt-1">
-                                        <a href="/search?category={{$c->name}}">
-                                            <span class="mr-4 text-xs text-gray-100 hover:underline">{{$c->name}}</span>
-                                        </a>
-                                    </div>
-                                @endforeach
-                            </div>
+{{--                            <div class="flex">--}}
+{{--                                @foreach($navbarCategories as $rc)--}}
+{{--                                    <div class="mt-1">--}}
+{{--                                        <a href="/search?category={{$c->name}}">--}}
+{{--                                            <span class="mr-4 text-xs text-gray-100 hover:underline">{{$c->name}}</span>--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                @endforeach--}}
+{{--                            </div>--}}
                         </form>
                     </div>
                     <div class="flex ml-auto text-white">

@@ -23,8 +23,9 @@ class Bag extends Model
         'user_id'
     ];
 
-    public function product(): \Illuminate\Database\Eloquent\Relations\HasOne {
-        return $this->hasOne(Product::class);
+    public function product(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(Product::class);
     }
 
     public function user(): \Illuminate\Database\Eloquent\Relations\BelongsTo {
