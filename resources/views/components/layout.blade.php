@@ -69,8 +69,8 @@
                         <img class="w-36 -mt-5" src="assets/logo-dark.png" alt="logo">
                     </a>
                     <div class="mx-auto text-sm flex-1 text-center">
-                        <form class="relative w-8/12 mx-auto">
-                            <input type="text" class="w-full py-2.5 focus:outline-none px-4 bg-gray-50 rounded-sm border-0 leading-none" name="q" placeholder="Sneakers" value="" />
+                        <form method="GET" action="/search" class="relative w-8/12 mx-auto">
+                            <input type="text" class="w-full py-2.5 focus:outline-none px-4 bg-gray-50 rounded-sm border-0 leading-none" name="q" placeholder="Sneakers" value="{{ \Illuminate\Support\Facades\Request::query('q') }}" />
                             <div class="absolute" style="top: 4px; right: 5px;">
                                 <button type="submit" class="orielly-bg-primary focus:outline-none py-1.5 px-2 text-white rounded-sm">
                                     <i class="fa fa-search"></i>

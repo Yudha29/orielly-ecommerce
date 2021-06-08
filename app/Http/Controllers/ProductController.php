@@ -69,6 +69,34 @@ class ProductController extends Controller
         ));
     }
 
+    public function search(Request $request) {
+        $keyword = $request->query('q');
+        $label = $request->query('label');
+        $category = $request->query('category');
+        $products = Product::where('name', 'LIKE', '%'.$keyword.'%')->get();
+
+        if (isset($label))
+            $products = $products->filter(function($p) use ($label) {
+                if ($label == 'inDemand')
+                    return $p->num_of_sold > 1000;
+                else if ($label == 'discount')
+                    return isset($p->discount) && $p->discount > 0;
+                return true;
+            });
+
+        if (isset($category))
+            $products = $products->filter(function($p) use ($category, $label) {
+                $found = false;
+                foreach ($p->categories as $c) {
+                    if ($c->id == $category)
+                        $found = true;
+                }
+                return $found;
+            });
+
+        return view('client.search', compact('products'));
+    }
+
     /**
      * View product add form.
      *

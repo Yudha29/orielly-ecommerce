@@ -32,7 +32,7 @@
         <x-container>
             <x-product-deck
                 title="Diskon nih"
-                url="/search/label=discount"
+                url="/search?label=discount"
             >
                 <div class="flex">
                     <div class="bg-gray-400 md:w-6/12 m-1 rounded-md bg-img"
@@ -85,7 +85,7 @@
     <section class="mt-8 mb-12">
         <x-container>
             <x-product-deck
-                title="Paling Populer"
+                title="Rekomendasi"
                 url="/search?label=inDemand"
             >
                 <div class="flex flex-wrap">

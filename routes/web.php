@@ -43,6 +43,9 @@ Route::middleware(['auth:sanctum', 'verified', 'isAdmin'])->group(function () {
 Route::middleware(['isUser'])->group(function () {
     Route::get('/', 'App\Http\Controllers\Controller@index');
 
+    Route::get('/search', 'App\Http\Controllers\ProductController@search')
+        ->name('search');
+
     Route::get('/contact', 'App\Http\Controllers\Controller@contactUs');
 
     Route::get('/about', 'App\Http\Controllers\Controller@aboutUs');
