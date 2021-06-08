@@ -15,16 +15,51 @@
         <div class="orielly-bg-primary sticky top-0 z-50">
             <div class="mx-auto px-2.5 max-w-6xl">
                 <div class="flex">
-                    <div class="pt-1.5 pb-0 text-xs ml-auto text-white">
+                    <div class="flex pt-1.5 pb-0 text-xs ml-auto text-white">
                         <a href="/about">
                             <span class="hover:underline">Tentang Kami</span>
                         </a>
                         <a href="/contact">
                             <span class="ml-5 hover:underline">Hubungi Kami</span>
                         </a>
-                        <a href="/signin">
-                            <span class="ml-5 hover:underline">Masuk</span>
-                        </a>
+                        @if (\Illuminate\Support\Facades\Auth::check())
+                            <x-jet-dropdown align="right" width="48">
+                                <x-slot name="trigger">
+                                    <span class="ml-5 hover:underline cursor-pointer">{{\Illuminate\Support\Facades\Auth::user()->name}}</span>
+                                </x-slot>
+
+                                <x-slot name="content">
+                                    <!-- Account Management -->
+                                    <div class="block px-4 py-2 text-xs text-gray-400">
+                                        {{ __('Manage Account') }}
+                                    </div>
+
+                                    @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
+                                        <x-jet-dropdown-link href="{{ route('api-tokens.index') }}">
+                                            {{ __('API Tokens') }}
+                                        </x-jet-dropdown-link>
+                                    @endif
+
+                                    <div class="border-t border-gray-100"></div>
+
+                                    <!-- Authentication -->
+                                    <form method="POST" action="{{ route('logout') }}">
+                                        @csrf
+
+                                        <x-jet-dropdown-link
+                                            href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();this.closest('form').submit();"
+                                        >
+                                            {{ __('Log Out') }}
+                                        </x-jet-dropdown-link>
+                                    </form>
+                                </x-slot>
+                            </x-jet-dropdown>
+                        @else
+                            <a href="/signin">
+                                <span class="ml-5 hover:underline">Masuk</span>
+                            </a>
+                        @endif
                     </div>
                 </div>
                 <div class="flex pt-4 pb-3 items-center">
