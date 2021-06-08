@@ -15,8 +15,9 @@ class CreateNewUser implements CreatesNewUsers
     /**
      * Validate and create a newly registered user.
      *
-     * @param  array  $input
+     * @param array $input
      * @return \App\Models\User
+     * @throws \Illuminate\Validation\ValidationException
      */
     public function create(array $input)
     {
@@ -30,6 +31,7 @@ class CreateNewUser implements CreatesNewUsers
         return User::create([
             'name' => $input['name'],
             'email' => $input['email'],
+            'role' => $input['_role'],
             'password' => Hash::make($input['password']),
         ]);
     }

@@ -51,6 +51,7 @@
                         error=""
                         placeholder="Konfirmasi password"
                     ></x-form.input>
+                    <input type="hidden" value="0" name="_role" />
                     <x-button type="submit">Sign up</x-button>
                 </form>
             </div>
