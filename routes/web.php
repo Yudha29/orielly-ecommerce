@@ -48,9 +48,11 @@ Route::middleware(['isUser'])->group(function () {
     Route::get('/about', 'App\Http\Controllers\Controller@aboutUs');
 
     Route::middleware(['noAuth'])->group(function () {
-        Route::get('/signup', 'App\Http\Controllers\AuthController@viewSignUp');
+        Route::get('/signup', 'App\Http\Controllers\AuthController@viewSignUp')
+            ->name('sign-up');
 
-        Route::get('/signin', 'App\Http\Controllers\AuthController@viewSignIn');
+        Route::get('/signin', 'App\Http\Controllers\AuthController@viewSignIn')
+            ->name('sign-in');
     });
 
     Route::get('/reset', 'App\Http\Controllers\AuthController@reset');

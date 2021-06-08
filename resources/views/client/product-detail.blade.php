@@ -40,37 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-gray-100 shadow-md w-3/12 rounded-md bg-white mr-4 p-4">
-                        <p class="text-gray-500 mb-4 font-bold text-lg quick-sand">Atur jumlah</p>
-                        <div class="mb-4 flex items-center"><span class="mr-6 text-sm text-gray-500 font-semibold">Jumlah</span>
-                            <div class="ml-auto">
-                                <div class="w-24 flex items-center border text-gray-600 py-1 px-2 rounded-md border-gray-200">
-                                    <button class="focus:outline-none mr-auto" onclick="decrement()">
-                                        <i class="fa fa-minus fa-sm"></i>
-                                    </button>
-                                    <span id="quantityText">1</span>
-                                    <button class="focus:outline-none ml-auto" onclick="increment()">
-                                        <i class="fa fa-plus fa-sm"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="flex my-3">
-                            <span class="text-gray-500">Total</span>
-                            <span id="grandPrice" class="orielly-text-primary ml-auto font-bold">
-                                Rp{{\App\Helpers\ProductHelper::formatPrice(\App\Helpers\ProductHelper::priceAfterDiscount($product->price, $product->discount))}}
-                            </span>
-                        </div>
-                        <button class="rounded-md orielly-bg-primary text-white  w-full focus:outline-none py-2.5 px-4">
-                            <i class="fa fa-shopping-bag fa-lg"></i>
-                            Masukan Tas
-                        </button>
-                    </div>
-                </div>
-                <div>
-                    <input id="quantity" type="number" style="display: none" value="1">
-                    <input id="productPrice" type="number" style="display: none" value="{{\App\Helpers\ProductHelper::priceAfterDiscount($product->price, $product->discount)}}">
+                    @livewire('add-to-bag-card', ['product' => $product])
                 </div>
             </div>
         </div>
@@ -125,38 +95,4 @@
             </x-product-deck>
         </x-container>
     </section>
-
-    <x-slot name="script">
-        <script>
-            var grandPrice = $('#grandPrice');
-            var quantityInput = $('#quantity');
-            var productPrice = $('#productPrice');
-            var quantityText = $('#quantityText');
-
-            function formatPrice(x) {
-                return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ".");
-            }
-
-            function increment() {
-                var quantity = Number(quantityInput.val());
-                var price = Number(productPrice.val());
-                quantityInput.val(quantity + 1);
-                quantityText.text(quantityInput.val());
-                var formattedPrice = formatPrice((price * (quantity + 1)));
-                grandPrice.text('Rp'+formattedPrice);
-            }
-
-            function decrement() {
-                var quantity = Number(quantityInput.val());
-                var price = Number(productPrice.val());
-
-                if (quantity > 1) {
-                    quantityInput.val(quantity - 1);
-                    quantityText.text(quantityInput.val());
-                    var formattedPrice = formatPrice((price * (quantity - 1)));
-                    grandPrice.text('Rp'+formattedPrice);
-                }
-            }
-        </script>
-    </x-slot>
 </x-layout>

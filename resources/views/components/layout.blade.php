@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
-
+    <link rel="stylesheet" href="{{ asset('css/toastr.min.css') }}">
+    @toastr_css
+    @livewireStyles
     <title>{{ $title }}</title>
 </head>
 
@@ -185,8 +187,22 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+{{--    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>--}}
     <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{ asset('js/toastr.min.js') }}"></script>
+    @jquery
+    @toastr_js
+    @toastr_render
+    @livewireScripts
     {{ $script ?? '' }}
+    <script>
+        window.addEventListener('alert', event => {
+            toastr[event.detail.type](event.detail.message,
+                event.detail.title ?? ''), toastr.options = {
+                "closeButton": true,
+                "progressBar": true,
+            }
+        });
+    </script>
 </body>
 </html>
