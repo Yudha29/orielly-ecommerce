@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot name="title">
-        Orielly E-Commerce
+        Tas Belanja
     </x-slot>
     <section class="my-8">
         <x-container>

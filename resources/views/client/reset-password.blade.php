@@ -1,5 +1,5 @@
 <x-basic-layout>
-    <x-slot name="title">Daftar</x-slot>
+    <x-slot name="title">Ganti Password</x-slot>
     <div class="shadow-md w-96 rounded-md mx-auto mt-36 bg-white p-8 relative">
         <div class="absolute" style="top: -70px; left: 45%; transform: translate(-50%, 0px);">
             <x-link url="/">

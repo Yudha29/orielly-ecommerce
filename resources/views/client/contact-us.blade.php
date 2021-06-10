@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot name="title">
-        Orielly E-Commerce
+        Hubungi Kami
     </x-slot>
     <x-slot name="navbarCategories">
         {{ $recommendedCategories }}

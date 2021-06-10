@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot name="title">
-        Orielly E-Commerce
+        {{ $product->name }}
     </x-slot>
     <x-slot name="navbarCategories">
         {{ $recommendedCategories }}

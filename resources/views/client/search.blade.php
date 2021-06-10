@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot name="title">
-        Search Products
+        Cari Produk
     </x-slot>
     <section class="mt-8 mb-12">
         <x-container>
