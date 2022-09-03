@@ -1,4 +1,7 @@
-# Orielly E-Commerce
+<p align="center">
+   <img width="250" src="https://raw.githubusercontent.com/Yudha29/project-publication/main/orielly-ecommerce/images/orielly%20Logo.png">
+</p>
+
 ## About
 Orielly is an E-Commerce build using laravel & livewire for the frontend and backend. this is my final project for the Web Design Course at Bunda Mulia University.
    
